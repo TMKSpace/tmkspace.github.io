@@ -1,4 +1,22 @@
+@font-face {
+  font-family: 'mc';
+  src: url('https://github.com/TMKSpace/tmkspace.github.io/blob/main/9309.ttf') format('truetype');
+}
 body {
   background-color: #2C2F33;
   color: #FFFFFF;
+  text-align: center;
+  font-family: 'mc';
+  display: flex;
+}
+h1{
+  font-size: 64px;
+  margin-bottom:0px;
+  /* margin-top: 35%; */
+  
+}
+div{
+  top:35%;
+  right: 45%;
+  position:absolute;
 }
