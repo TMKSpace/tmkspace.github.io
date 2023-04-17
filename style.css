@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'mc';
-  src: url('https://github.com/TMKSpace/tmkspace.github.io/blob/main/9309.ttf') format('truetype');
+  src: url('9309.ttf') format('truetype');
 }
 body {
   background-color: #2C2F33;
