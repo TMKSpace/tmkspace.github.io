@@ -21,10 +21,8 @@ h1{
   right: 45%;
   position:absolute;
 }
-input{
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+.in {
+  font-family: 'mc';
   margin: 0;
   display: block;
   margin-bottom: 0.25rem;
@@ -37,8 +35,8 @@ input{
   border-radius: 0.25rem;
 }
 
-button {
-  font-family: inherit;
+.btn {
+  font-family: 'mc';
   font-size: 90%;
   border:1px solid #48494c;
   background:#757070;
