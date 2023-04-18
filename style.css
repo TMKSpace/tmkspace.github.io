@@ -8,6 +8,7 @@ body {
   text-align: center;
   font-family: 'mc';
   display: flex;
+  box-sizing: border-box;
 }
 h1{
   font-size: 64px;
@@ -15,8 +16,33 @@ h1{
   /* margin-top: 35%; */
   
 }
-div{
+.center{
   top:35%;
   right: 45%;
   position:absolute;
+}
+input{
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  display: block;
+  margin-bottom: 0.25rem;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  background-color: #3e4144;
+  background-clip: padding-box;
+  border: 1px solid #b0abab;
+  color: #FFFFFF;
+  border-radius: 0.25rem;
+}
+
+button {
+  font-family: inherit;
+  font-size: 90%;
+  border:1px solid #48494c;
+  background:#757070;
+  color:#FFFFFF;
+  width: 70%;
+  border-radius: 0.25rem;
 }
