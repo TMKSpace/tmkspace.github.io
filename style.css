@@ -44,3 +44,11 @@ h1{
   width: 70%;
   border-radius: 0.25rem;
 }
+.subtitle {
+  font-family: 'mc';
+  bottom:0px;
+  position:fixed
+}
+a{
+  color:#b7f2ff;
+}
