@@ -17,9 +17,10 @@ h1{
   
 }
 .center{
-  top:35%;
-  right: 45%;
+  top:50%;
+  right: 50%;
   position:absolute;
+  transform: translate(-50%,-50%)
 }
 .in {
   font-family: 'mc';
@@ -47,7 +48,8 @@ h1{
 .subtitle {
   font-family: 'mc';
   bottom:0px;
-  position:fixed
+  position:fixed;
+  text-allign: center;
 }
 a{
   color:#b7f2ff;
