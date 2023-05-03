@@ -18,7 +18,7 @@ h1{
 }
 .center{
   top:50%;
-  right: 50%;
+  left: 50%;
   position:absolute;
   transform: translate(-50%,-50%)
 }
@@ -45,12 +45,22 @@ h1{
   width: 70%;
   border-radius: 0.25rem;
 }
+
 .subtitle {
-  font-family: 'mc';
-  bottom:0px;
+  white-space: nowrap;
+  overflow-x: auto;
   position:fixed;
-  text-allign: center;
+  font-family: 'mc';
+  bottom:0%;
+  left:50%;
+  transform: translateX(-50%);
 }
-a{
+.subtitle p{
+  display: inline-block;
+}
+.subtitle a{
+  display: inline-block;
+  text-decoration: none;
   color:#b7f2ff;
+  margin-bottom: 0%;
 }
